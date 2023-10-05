@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\moon\Karelia\debackrooms\kar"
+		
+	"$bumpmap" "models\moon\Karelia\debackrooms\Kar Normal"
+
+                 $selfillum 1
+                 $selfillummask "models\moon\Karelia\debackrooms\Kar Emission"
+                 $selfillumtint "[1 1 1 ]"
+
+	"$ambientocclusion" 1
+
+	"$model" 1
+
+                 $nocull 1
+
+	"$phong" "1"
+	"$phongboost"	"0.5" 
+	"$phongalbedotint" "1"
+	"$phongexponent" "20"
+	"$phongtint" "[.2 .2 .3]"
+
+	$phongfresnelranges	"[0.05 0.5 1]"
+
+	///"$lightwarptexture" "models\moon\Karelia\debackrooms\lightwarpshader"
+}
